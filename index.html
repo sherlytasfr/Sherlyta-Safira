@@ -5,20 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strawberry Bakery - Dessert Kekinian</title>
     <link rel="stylesheet" href="style.css">
-
-    <script>
-      const button = document.getElementById("cta-button");
-      const notification = document.getElementById("notification");
-    
-      button.addEventListener("click", () => {
-        notification.style.display = "block";
-    
-        // Sembunyikan notifikasi setelah 5 detik
-        setTimeout(() => {
-          notification.style.display = "none";
-        }, 5000);
-      });
-    </script>
   </head>
   
   <body>
@@ -124,5 +110,18 @@
     </footer>
     
     <script src="script.js"></script>
+    <script>
+      const button = document.getElementById("cta-button");
+      const notification = document.getElementById("notification");
+    
+      button.addEventListener("click", () => {
+        notification.style.display = "block";
+    
+        // Sembunyikan notifikasi setelah 5 detik
+        setTimeout(() => {
+          notification.style.display = "none";
+        }, 5000);
+      });
+    </script>
   </body>
 </html>
