@@ -8,7 +8,9 @@
   </head>
   
   <body>
-    <div id="notification" class="notification">Pesanan Anda telah diterima! Terima kasih!</div>
+    <div id="notification" class="notification">
+      Pesanan telah diterima!<br>Kami akan segera menghubungi Anda 😊
+    </div>
 
     <header>
       <div class="container">
@@ -51,7 +53,7 @@
                 height="200px"
                 alt="Cookies Dessert"
               >
-              <h2>COCO COOKIES RP 15.000</h2>
+              <h2>COCO COOKIES<br>RP 15.000</h2>
               <p>Cookies lembut berisi coklat lumer yang dapat membuat hati anda ikut meleleh.</p>
             </div>
             <div class="feature-item">
@@ -61,7 +63,7 @@
                 height="200px"
                 alt="Vanilla Cupcake Recipe NZ Chelsea Sugar"
               >
-              <h2>SNOWCUPCAKE RP 25.000</h2>
+              <h2>SNOWCUPCAKE<br>RP 25.000</h2>
               <p>Menyajikan cupcake yang penuh dengan rasa yang lembut saat dimakan.</p>
             </div>
             <div class="feature-item">
@@ -71,7 +73,7 @@
                 height="200px"
                 alt="Mochi"
               >
-              <h2>PENGUIN MOCHI RP 30.000</h2>
+              <h2>PENGUIN MOCHI<br>RP 30.000</h2>
               <p>Mochi lembut, kenyal, imut seperti penguin di kutub utara.</p>
             </div>
           </div>
@@ -102,26 +104,13 @@
       <div class="container">
         <p>© 2025 Strawberry Bakery. Hak Cipta Dilindungi.</p>
         <div class="social-links">
-          <a href="https://www.instagram.com/">Instagram</a>
-          <a href="https://x.com/">Twitter</a>
-          <a href="https://www.linkedin.com/">LinkedIn</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </footer>
     
     <script src="script.js"></script>
-    <script>
-      const button = document.getElementById("cta-button");
-      const notification = document.getElementById("notification");
-    
-      button.addEventListener("click", () => {
-        notification.style.display = "block";
-    
-        // Sembunyikan notifikasi setelah 5 detik
-        setTimeout(() => {
-          notification.style.display = "none";
-        }, 5000);
-      });
-    </script>
   </body>
 </html>
